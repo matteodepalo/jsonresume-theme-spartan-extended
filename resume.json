@@ -12,7 +12,7 @@
       "countryCode": "GBR",
       "region": "England"
     },
-    "summary": "I'm a senior full-stack web developer who is used to wearing many hats thanks to my extended experience working in startups and medium sized companies, where building a great product has been the main focus. I love taking on new challenges, especially when it involves learning something out of my comfort zone that will broaden my general understanding of a subject. I also love creating refined development processes that lead to a very effective working environment with the whole team.",
+    "summary": "I'm a senior full-stack web developer who is used to wearing many hats thanks to my extended experience working in startups and medium-sized companies, where building a great product has been the main focus. I love taking on new challenges, especially when it involves learning something out of my comfort zone that will broaden my general understanding of a subject. I also love creating refined development processes that lead to a very effective working environment with the whole team.",
     "profiles": [
       {
         "network": "LinkedIn",
@@ -55,7 +55,7 @@
         "Featurist - Worked on new features, improvements and refactors for an app written with hyperdom.js",
         "DVELP - Worked on a website for a gym in central London built with Rails and Vue.js",
         "GlobalWebIndex - Worked on internal reports and graphs built with D3.js",
-        "The Trainline - Worked on architecturing and implementing a new JSON API in Ruby that allowed every service in the company to communicate using a common protocol.",
+        "The Trainline - Worked on architecting and implementing a new JSON API in Ruby that allowed every service in the company to communicate using a common protocol.",
         "Kayako - Worked on a major rebuild of the product in Ember.js.",
         "Zapnito - Worked on the main application built with Ruby on Rails and Ember.js."
       ],
@@ -96,7 +96,7 @@
         "Led a team of 4 engineers delivering a front-end heavy product built with Backbone.js which was sold to multiple clients.",
         "Successfully migrated away from Heroku by using Capistrano and Digitalocean"
       ],
-      "summary": "Co-founder of Responsa, a startup that offer an embeddable Q&A widget developed with Ruby on Rails, with the role of lead web developer and CTO. Responsa was a company growing in H-Farm, a startup incubator in northern Italy.",
+      "summary": "Co-founder of Responsa, a startup that offers an embeddable Q&A widget developed with Ruby on Rails, with the role of lead web developer and CTO. Responsa was a company growing in H-Farm, a startup incubator in northern Italy.",
       "url": "https://responsa.ai",
       "location": "Treviso, Italy"
     },
@@ -109,7 +109,7 @@
         "Ruby on Rails",
         "iOS Development"
       ],
-      "summary": "Worked at Lucido on the creation of Playround, a platform for gamers in Ruby on Rails. Collaborated to the development of the iPad game ColorManiac and of the iPhone application Manistone.",
+      "summary": "Worked at Lucido on the creation of Playround, a platform for gamers in Ruby on Rails. Collaborated to the development of the iPad game ColorManiac and the iPhone application Manistone.",
       "url": "https://www.linkedin.com/company/lucido/"
     },
     {
@@ -121,7 +121,7 @@
         "Learned C++",
         "Data analysis performed with Root"
       ],
-      "summary": "Worked at the High Energy Physics Institute (IFAE) in Barcelona (Spain) dealing with the caracterization of specific hardware for astronomic observations. Development in ROOT environment (C++ language).",
+      "summary": "Worked at the High Energy Physics Institute (IFAE) in Barcelona (Spain) dealing with the characterization of specific hardware for astronomic observations. Development in ROOT environment (C++ language).",
       "location": "Barcelona, Spain"
     }
   ],
@@ -251,7 +251,7 @@
     "type": "application"
   }, {
     "name": "Ariko",
-    "description": "An embedded software for Arduino that interfaces with a Certabo Chess board and various components like a LCD display and buttons.",
+    "description": "An embedded software for Arduino that interfaces with a Certabo Chessboard and various components like an LCD  and buttons.",
     "highlights": [
       "Rust",
       "Embedded HAL"
