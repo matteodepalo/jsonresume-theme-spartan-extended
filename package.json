@@ -11,7 +11,6 @@
 	"dependencies": {
 		"country-code-lookup": "^0.0.20",
 		"handlebars": "^4.7.7",
-		"jsonresume-theme-spartan-extended": "^0.5.0",
 		"moment": "^2.29.1"
 	},
 	"devDependencies": {
@@ -19,5 +18,6 @@
 		"resume-cli": "^3.0.5"
 	},
 	"scripts": {
+    "build": "resume export index.html --theme ."
 	}
 }

@@ -1800,15 +1800,6 @@
     "micromark" "^2.11.4"
     "striptags" "^3.1.1"
 
-"jsonresume-theme-spartan-extended@^0.5.0":
-  "integrity" "sha512-HKAj9DfGyvqIHOlBMsN61E9iF40e5ZTAWDjBPXskmtkkwXzOWRIiW7PYVr3EIBDno5enZ2qN9/gAa7k/NdeXvw=="
-  "resolved" "https://registry.npmjs.org/jsonresume-theme-spartan-extended/-/jsonresume-theme-spartan-extended-0.5.0.tgz"
-  "version" "0.5.0"
-  dependencies:
-    "country-code-lookup" "^0.0.20"
-    "handlebars" "^4.7.7"
-    "moment" "^2.29.1"
-
 "JSV@^4.0.x":
   "integrity" "sha1-0Hf2glVx+CEy+d/67Vh7QCn+/1c="
   "resolved" "https://registry.npmjs.org/JSV/-/JSV-4.0.2.tgz"
