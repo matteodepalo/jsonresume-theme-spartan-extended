@@ -1,43 +1,23 @@
 {
-	"name": "jsonresume-theme-spartan-extended",
+	"name": "matteodepalo.github.io",
 	"version": "0.5.0",
-	"description": "Extended version of the spartan them to a extended JSON resume format",
-	"author": "Aaron Berry <aaron.abm@gmail.com>",
+	"description": "Matteo Depalo's resume",
+	"author": "Matteo Depalo <matteo@depalo.me>",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Aaron-K-T-Berry/jsonresume-theme-spartan.git"
+		"url": "https://github.com/matteodepalo/matteodepalo.github.io.git"
 	},
 	"license": "MIT",
 	"dependencies": {
 		"country-code-lookup": "^0.0.20",
 		"handlebars": "^4.7.7",
+		"jsonresume-theme-spartan-extended": "^0.5.0",
 		"moment": "^2.29.1"
 	},
 	"devDependencies": {
-		"@semantic-release/git": "^10.0.1",
-		"@semantic-release/npm": "^8.0.3",
-		"commitizen": "^4.2.4",
-		"cz-conventional-changelog": "^3.3.0",
-		"husky": "^3.1.0",
 		"prettier": "^2.5.1",
-		"resume-cli": "^3.0.5",
-		"semantic-release": "^18.0.1",
-		"semantic-release-cli": "^5.4.4"
+		"resume-cli": "^3.0.5"
 	},
 	"scripts": {
-		"commit": "./node_modules/.bin/git-cz",
-		"setup": "ln -sf resume.example.json resume.json",
-		"lint": "./node_modules/.bin/prettier --write ./index.js ./public/index.html",
-		"build": "rm -f ./public/index.html && ./node_modules/.bin/resume export ./public/index.html --theme .",
-		"start": "./node_modules/.bin/resume serve --theme .",
-		"semantic-release": "semantic-release"
-	},
-	"husky": {
-		"hooks": {}
-	},
-	"config": {
-		"commitizen": {
-			"path": "./node_modules/cz-conventional-changelog"
-		}
 	}
 }

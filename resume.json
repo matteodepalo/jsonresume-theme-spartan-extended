@@ -1,0 +1,285 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Matteo Depalo",
+    "label": "Senior Software Engineer",
+    "image": "",
+    "email": "matteo+resume@depalo.me",
+    "phone": "+447751443392",
+    "url": "",
+    "location": {
+      "city": "London",
+      "countryCode": "GBR",
+      "region": "England"
+    },
+    "summary": "I'm a senior full-stack web developer who is used to wearing many hats thanks to my extended experience working in startups and medium sized companies, where building a great product has been the main focus. I love taking on new challenges, especially when it involves learning something out of my comfort zone that will broaden my general understanding of a subject. I also love creating refined development processes that lead to a very effective working environment with the whole team.",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "matteodepalo",
+        "url": "https://www.linkedin.com/in/matteodepalo/"
+      },
+      {
+        "network": "Github",
+        "username": "matteodepalo",
+        "url": "https://github.com.com/matteodepalo/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Zapnito",
+      "position": "Senior Software Engineer",
+      "startDate": "2019-06-30",
+      "highlights": [
+        "Streamlined customer onboarding process by migrating a big part of the infrastructure to Terraform",
+        "Integrated Algolia to help us improve the platform search experience",
+        "Implemented a private direct messaging platform with Twilio and Ember.js",
+        "Made sure that our Ember + Rails stack was up to date",
+        "Led the team effort in rewriting our internal authoring tools in Ember.js",
+        "Migrated the whole codebase to Typescript",
+        "Automated our deployment workflow in Slack",
+        "Unified development stacks with VSCode Devcontainers and Docker",
+        "Introduced review apps to help us QA our PRs faster"
+      ],
+      "url": "https://www.linkedin.com/company/zapnito/",
+      "location": "London",
+      "summary": "Worked as a senior software engineer on the whole stack, focusing my efforts first on the front-end and then on the infrastructure."
+    },
+    {
+      "name": "Caldera Labs",
+      "position": "Director",
+      "startDate": "2015-09-30",
+      "endDate": "2019-06-30",
+      "highlights": [
+        "Featurist - Worked on new features, improvements and refactors for an app written with hyperdom.js",
+        "DVELP - Worked on a website for a gym in central London built with Rails and Vue.js",
+        "GlobalWebIndex - Worked on internal reports and graphs built with D3.js",
+        "The Trainline - Worked on architecturing and implementing a new JSON API in Ruby that allowed every service in the company to communicate using a common protocol.",
+        "Kayako - Worked on a major rebuild of the product in Ember.js.",
+        "Zapnito - Worked on the main application built with Ruby on Rails and Ember.js."
+      ],
+      "summary": "Founded Caldera Labs, a company that focuses on Ember, Rails, and Elixir consulting in London.",
+      "location": "London"
+    },
+    {
+      "name": "AlphaSights",
+      "position": "Product Lead",
+      "startDate": "2013-10-31",
+      "endDate": "2015-09-30",
+      "highlights": [
+        "Shipped a major reimplementation of the main internal product using Ember.js",
+        "Contributed to the development of our internal front-end framework built with SASS and enhanced by our Ember components library.",
+        "Implemented a new way to get to know and better serve all our internal users leveraging Intercom.",
+        "Introduced a new type of process based on weekly releases with an updated changelog for our main product.",
+        "Changed the way we communicate as a global team with the help of Discourse."
+      ],
+      "summary": "Worked as a full-stack developer and product lead on the main application which is built with Ruby on Rails.",
+      "url": "https://www.alphasights.com",
+      "location": "London"
+    },
+    {
+      "name": "Self-Employed",
+      "position": "Freelance Web Developer",
+      "startDate": "2013-07-31",
+      "endDate": "2013-10-31",
+      "highlights": [],
+      "summary": "Worked on some side projects in Ruby on Rails.",
+      "location": "Treviso, Italy"
+    },
+    {
+      "name": "Responsa",
+      "position": "CTO & Co-founder",
+      "startDate": "2011-11-30",
+      "endDate": "2013-07-31",
+      "highlights": [
+        "Led a team of 4 engineers delivering a front-end heavy product built with Backbone.js which was sold to multiple clients.",
+        "Successfully migrated away from Heroku by using Capistrano and Digitalocean"
+      ],
+      "summary": "Co-founder of Responsa, a startup that offer an embeddable Q&A widget developed with Ruby on Rails, with the role of lead web developer and CTO. Responsa was a company growing in H-Farm, a startup incubator in northern Italy.",
+      "url": "https://responsa.ai",
+      "location": "Treviso, Italy"
+    },
+    {
+      "name": "Lucido",
+      "position": "Co-founder",
+      "startDate": "2011-04-30",
+      "endDate": "2011-11-30",
+      "highlights": [
+        "Ruby on Rails",
+        "iOS Development"
+      ],
+      "summary": "Worked at Lucido on the creation of Playround, a platform for gamers in Ruby on Rails. Collaborated to the development of the iPad game ColorManiac and of the iPhone application Manistone.",
+      "url": "https://www.linkedin.com/company/lucido/"
+    },
+    {
+      "name": "IFAE",
+      "position": "Physicist",
+      "startDate": "2010-05-01",
+      "endDate": "2011-08-01",
+      "highlights": [
+        "Learned C++",
+        "Data analysis performed with Root"
+      ],
+      "summary": "Worked at the High Energy Physics Institute (IFAE) in Barcelona (Spain) dealing with the caracterization of specific hardware for astronomic observations. Development in ROOT environment (C++ language).",
+      "location": "Barcelona, Spain"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Università degli Studi di Siena",
+      "area": "Physics",
+      "studyType": "Bachelor degree",
+      "startDate": "2006-12-31",
+      "endDate": "2010-12-31",
+      "score": "First",
+      "courses": []
+    },
+    {
+      "institution": "Liceo classico Enea Silvio Piccolomini, Siena",
+      "area": "Humanism",
+      "studyType": "High school diploma",
+      "startDate": "2001-12-31",
+      "endDate": "2006-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [{
+    "name": "Front-end Web Development",
+    "level": "Master",
+    "keywords": [
+      "Typescript",
+      "React",
+      "Ember.js",
+      "Next.js"
+    ]
+  }, {
+    "name": "Back-end Web Development",
+    "level": "Master",
+    "keywords": [
+      "Ruby",
+      "Ruby on Rails"
+    ]
+  }, {
+    "name": "DevOps",
+    "level": "Master",
+    "keywords": [
+      "AWS",
+      "Terraform",
+      "Vercel",
+      "Heroku"
+    ]
+  }, {
+    "name": "Web Development",
+    "level": "Advanced",
+    "keywords": [
+      "Rust",
+      "Elixir",
+      "Phoenix",
+      "GraphQL",
+      "Scala",
+      "ReasonML"
+    ]
+  }, {
+    "name": "Databases",
+    "level": "Advanced",
+    "keywords": [
+      "PostgreSQL",
+      "Elasticsearch",
+      "Redis"
+    ]
+  }, {
+    "name": "Embedded",
+    "level": "Intermediate",
+    "keywords": [
+      "Rust",
+      "Embedded HAL"
+    ]
+  }],
+  "languages": [
+    {
+      "fluency": "Native Speaker",
+      "language": "Italian"
+    },
+    {
+      "fluency": "Full Professional",
+      "language": "English"
+    },
+    {
+      "fluency": "Limited Working",
+      "language": "Japanese"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Chess",
+      "keywords": []
+    },
+    {
+      "name": "Rock Climbing",
+      "keywords": []
+    },
+    {
+      "name": "Japanese",
+      "keywords": []
+    },
+    {
+      "name": "Cooking",
+      "keywords": []
+    }
+  ],
+  "references": [],
+  "projects": [{
+    "name": "Focaccia",
+    "description": "An app that lets you keep track of baking recipes and calculates baker's percentages.",
+    "highlights": [
+      "Next.js",
+      "Nest.js",
+      "GraphQL API automatically mapped to Typescript client via the use of a code generation tool."
+    ],
+    "keywords": [],
+    "startDate": "2021-10-10",
+    "url": "https://focaccia.app",
+    "roles": [
+      "Sole developer"
+    ],
+    "type": "application"
+  }, {
+    "name": "Ariko",
+    "description": "An embedded software for Arduino that interfaces with a Certabo Chess board and various components like a LCD display and buttons.",
+    "highlights": [
+      "Rust",
+      "Embedded HAL"
+    ],
+    "keywords": [],
+    "startDate": "2021-04-01",
+    "url": "https://github.com/matteodepalo/ariko",
+    "roles": [
+      "Co-developer"
+    ],
+    "type": "embedded"
+  }, {
+    "name": "Best Before",
+    "description": "An iOS app that helps you keep track of expiring things in your fridge.",
+    "highlights": [
+      "Swift"
+    ],
+    "keywords": [],
+    "startDate": "2018-05-01",
+    "url": "https://github.com/calderalabs/BestBefore",
+    "roles": [
+      "Co-developer"
+    ],
+    "type": "application"
+  }],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
+    "theme": "spartan"
+  }
+}
