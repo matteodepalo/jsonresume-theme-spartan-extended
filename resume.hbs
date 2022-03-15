@@ -217,6 +217,91 @@
     </section>
     {{/if}}
 
+    {{#if resume.projects.length}}
+    <section class="section">
+      <h2 class='section-title'>Projects</h2>
+      <section id="projects">
+
+        {{#each resume.projects}}
+        <header>
+
+          {{#if name}}
+          <div>
+            <h3 class="name">
+              {{name}}
+            </h3>
+
+            {{#if roles.length}}
+              {{#each roles}}
+                <div class="position">
+                  {{.}}
+                </div>
+              {{/each}}
+            {{/if}}
+          </div>
+          {{/if}}
+
+          <div class="date">
+            {{#if startDate}}
+            <span class="startDate">
+              {{MY startDate}}
+            </span>
+            {{/if}}
+
+            {{#if endDate}}
+            {{#if present}}
+            <span class="endDate">
+              - Present
+            </span>
+            {{else}}
+            <span class="endDate">
+              - {{MY endDate}}
+            </span>
+            {{/if}}
+
+            {{else}}
+            <span class="endDate">
+              - Present
+            </span>
+            {{/if}}
+
+            <div>
+              <div class="duration">
+                ({{periodToNow startDate endDate present}})
+              </div>
+            </div>
+          </div>
+
+        </header>
+
+        <div class="item">
+          {{#if url}}
+          <div class="website">
+            <a href="{{url}}">{{url}}</a>
+          </div>
+          {{/if}}
+
+          {{#if description}}
+          <div class="summary">
+            <p>{{description}}</p>
+          </div>
+          {{/if}}
+
+          {{#if highlights.length}}
+          <ul class="work-highlights">
+            {{#each highlights}}
+            <li>{{.}}</li>
+            {{/each}}
+          </ul>
+          {{/if}}
+
+        </div>
+        {{/each}}
+
+      </section>
+    </section>
+    {{/if}}
+
     {{#if resume.education.length}}
     <section class="section">
       <h2 class='section-title'>Education</h2>

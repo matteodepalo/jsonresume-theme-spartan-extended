@@ -240,7 +240,7 @@
     "highlights": [
       "Next.js",
       "Nest.js",
-      "GraphQL API automatically mapped to Typescript client via the use of a code generation tool."
+      "GraphQL API automatically mapped to a Typescript client with a code generation tool."
     ],
     "keywords": [],
     "startDate": "2021-10-10",
@@ -271,6 +271,7 @@
     ],
     "keywords": [],
     "startDate": "2018-05-01",
+    "endDate": "2018-08-01",
     "url": "https://github.com/calderalabs/BestBefore",
     "roles": [
       "Co-developer"
